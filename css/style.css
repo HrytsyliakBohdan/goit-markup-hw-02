@@ -1,0 +1,92 @@
+:root {
+  --only-text-color: #ffffff;
+  --main-text-color: #212121;
+  --additional-text-color: #757575;
+  --active-text-color: #2196f3;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+/*----------------Header------------------------*/
+
+.header-logo {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1, 20px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1, 20px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.header-list .header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+/*--------------------hero-------------------------------*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 40px;
+  letter-spacing: 0.06em;
+  color: var(--only-text-color);
+  background-color: rgb(128, 100, 41);
+}
+.hero-button {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 9px;
+  letter-spacing: 0.06em;
+  color: var(--only-text-color);
+  background-color: #2196f3;
+}
+.hero-tho-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.hero-tho-pr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 7px;
+  letter-spacing: 0.03em;
+  color: var(--additional-text-color);
+}
+.work-itm {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
