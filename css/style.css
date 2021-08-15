@@ -83,10 +83,72 @@ body {
   letter-spacing: 0.03em;
   color: var(--additional-text-color);
 }
-.work-itm {
+.work-item {
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 17px;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+.hero-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.hero-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 20px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.hero-team-spec {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 20px;
+  letter-spacing: 0.03em;
+  color: var(--additional-text-color);
+}
+/*-----------------------footer------------------------------*/
+.footer-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 20px;
+  letter-spacing: 0.03em;
+  color: var(--only-text-color);
+  background-color: #757575;
+}
+.footer-span {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 20px;
+  letter-spacing: 0.03em;
+  color: var(--active-text-color);
+}
+.footer-list {
+  background-color: #757575;
+}
+.footer-maps {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71px;
+  letter-spacing: 0.03em;
+  color: var(--only-text-color);
+}
+.footer-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
