@@ -7,6 +7,7 @@
 
 body {
   font-family: Roboto, sans-serif;
+  color: var(--main-text-color);
 }
 .link {
   text-decoration: none;
@@ -14,6 +15,12 @@ body {
 .list {
   list-style-type: none;
 }
+
+.header-link:hover,
+.header-link:focus {
+  color: rgb(194, 125, 41);
+}
+
 /*----------------Header------------------------*/
 
 .header-logo {
@@ -30,7 +37,7 @@ body {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-.header-list .header-link {
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14px;
@@ -151,4 +158,31 @@ body {
   line-height: 1, 71px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+/*---------------------portfolio hero-------------------*/
+.btn:hover,
+.btn:focus {
+  background-color: coral;
+}
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 6px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+.portfolio-main-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2px;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.portfolio-main-pr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 89px;
+  letter-spacing: 0.03em;
+  color: var(--additional-text-color);
 }
