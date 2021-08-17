@@ -18,7 +18,15 @@ body {
 
 .header-link:hover,
 .header-link:focus {
-  color: rgb(194, 125, 41);
+  color: var(--active-text-color);
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--active-text-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--active-text-color);
 }
 
 /*----------------Header------------------------*/
@@ -26,81 +34,83 @@ body {
 .header-logo {
   font-weight: 500;
   font-size: 26px;
-  line-height: 1, 20px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #000000;
 }
 .logo {
   font-weight: 500;
   font-size: 26px;
-  line-height: 1, 20px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--active-text-color);
+  text-decoration: none;
 }
 .header-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--main-text-color);
 }
 .header-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--additional-text-color);
 }
 .header-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--additional-text-color);
 }
 /*--------------------hero-------------------------------*/
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 40px;
+  line-height: 1.4;
   letter-spacing: 0.06em;
   color: var(--only-text-color);
-  background-color: rgb(128, 100, 41);
+  background-color: #2f303a;
 }
 .hero-button {
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 9px;
+  line-height: 1.9;
   letter-spacing: 0.06em;
   color: var(--only-text-color);
-  background-color: #2196f3;
+  background-color: var(--active-text-color);
+  cursor: pointer;
 }
 .hero-tho-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 .hero-tho-pr {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 7px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--additional-text-color);
 }
 .work-item {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 17px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 .hero-team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
@@ -108,14 +118,14 @@ body {
 .hero-team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 20px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 .hero-team-spec {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 20px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--additional-text-color);
 }
@@ -123,66 +133,66 @@ body {
 .footer-logo {
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 20px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--only-text-color);
-  background-color: #757575;
 }
 .footer-span {
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 20px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--active-text-color);
 }
-.footer-list {
-  background-color: #757575;
+.footer {
+  background-color: #2f303a;
 }
 .footer-maps {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--only-text-color);
 }
 .footer-mail {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 /*---------------------portfolio hero-------------------*/
 .btn:hover,
 .btn:focus {
-  background-color: coral;
+  color: var(--only-text-color);
+  background-color: var(--active-text-color);
 }
-.btn {
+.filter-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 6px;
+  line-height: 1.6;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   cursor: pointer;
 }
-.portfolio-main-title {
+.portfolio-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
 }
-.portfolio-main-pr {
+.portfolio-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 89px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--additional-text-color);
 }
